@@ -55,7 +55,7 @@ int main(int argc,char **argv){
     ros::NodeHandle nh;
     ImgDataSub imgSub;
     image_transport::ImageTransport it(nh);
-    image_transport::Subscriber image_sub = it.subscribe("bebop1/image_raw",10,&ImgDataSub::imageCallback,&imgSub);
+    image_transport::Subscriber image_sub = it.subscribe("image_raw",10,&ImgDataSub::imageCallback,&imgSub);
     BebopDriver driver(nh);
     char quit;
     static int count = 0;

@@ -1,0 +1,2 @@
+bebop_autonomy/bebop_autonomy:bebop_autonomy/bebop_description:bebop_autonomy/bebop_driver:bebop_autonomy/bebop_msgs:bebop_autonomy/bebop_tools:bebop_teleop:hello:img_subscriber:webcam
+-DCATKIN_DEVEL_PREFIX=/home/mlab/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mlab/catkin_ws/install -G Unix Makefiles
