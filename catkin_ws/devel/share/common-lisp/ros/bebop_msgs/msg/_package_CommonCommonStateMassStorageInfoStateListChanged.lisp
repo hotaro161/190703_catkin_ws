@@ -1,16 +1,1 @@
-(cl:in-package bebop_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          MASS_STORAGE_ID-VAL
-          MASS_STORAGE_ID
-          SIZE-VAL
-          SIZE
-          USED_SIZE-VAL
-          USED_SIZE
-          PLUGGED-VAL
-          PLUGGED
-          FULL-VAL
-          FULL
-          INTERNAL-VAL
-          INTERNAL
-))
+/home/mlab/catkin_ws/devel/.private/bebop_msgs/share/common-lisp/ros/bebop_msgs/msg/_package_CommonCommonStateMassStorageInfoStateListChanged.lisp

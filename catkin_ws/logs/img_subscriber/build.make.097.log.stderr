@@ -1,0 +1,17 @@
+In file included from [01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:5:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:53:72:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::aruco::PREDEFINED_DICTIONARY_NAME dictionary_name = cv::aruco::DICT_4X4_50;//DICT_4x4_50のARマーカを指定
+[01;32m[K                                                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:54:99:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(dictionary_name);//cv::Ptr<cv::aruco::Dictionary>の変数dictionaryを宣言したうえで格納
+[01;32m[K                                                                                                   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv::Mat ImgData::image[m[K’ is private
+     Mat image;//OpenCVのMat型の変数を宣言
+[01;32m[K         ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:59:42:[m[K [01;31m[Kerror: [m[Kwithin this context
+     imshow("marker_detection2", imgData1.image);
+[01;32m[K                                          ^[m[K
+make[2]: *** [CMakeFiles/img_subscriber_node.dir/src/main.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/img_subscriber_node.dir/all] エラー 2
+make: *** [all] エラー 2

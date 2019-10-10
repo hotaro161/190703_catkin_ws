@@ -28,7 +28,7 @@ int main(int argc, char** argv)
     //waitKey(2000);
     //imgData.markerCreate();
     while(ros::ok()){
-        
+
         ros::spinOnce();
         driver.camera_control(cameraAngularY,cameraAngularZ);
     }

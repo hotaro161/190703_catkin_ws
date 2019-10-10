@@ -1,0 +1,1 @@
+/home/mlab/catkin_ws/devel/.private/cv_test/lib/pkgconfig/cv_test.pc

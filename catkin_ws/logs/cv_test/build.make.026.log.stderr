@@ -1,0 +1,75 @@
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:[m[K In member function ‘[01m[Kvoid ImgDataSub::imageCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:63:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+    return -1;
+[01;32m[K            ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:87:25:[m[K [01;31m[Kerror: [m[K‘[01m[KH_MIN[m[K’ was not declared in this scope
+   Scalar s_min = Scalar(H_MIN, S_MIN, V_MIN);
+[01;32m[K                         ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:87:32:[m[K [01;31m[Kerror: [m[K‘[01m[KS_MIN[m[K’ was not declared in this scope
+   Scalar s_min = Scalar(H_MIN, S_MIN, V_MIN);
+[01;32m[K                                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:87:39:[m[K [01;31m[Kerror: [m[K‘[01m[KV_MIN[m[K’ was not declared in this scope
+   Scalar s_min = Scalar(H_MIN, S_MIN, V_MIN);
+[01;32m[K                                       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:88:25:[m[K [01;31m[Kerror: [m[K‘[01m[KH_MAX[m[K’ was not declared in this scope
+   Scalar s_max = Scalar(H_MAX, S_MAX, V_MAX);
+[01;32m[K                         ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:88:32:[m[K [01;31m[Kerror: [m[K‘[01m[KS_MAX[m[K’ was not declared in this scope
+   Scalar s_max = Scalar(H_MAX, S_MAX, V_MAX);
+[01;32m[K                                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:88:39:[m[K [01;31m[Kerror: [m[K‘[01m[KV_MAX[m[K’ was not declared in this scope
+   Scalar s_max = Scalar(H_MAX, S_MAX, V_MAX);
+[01;32m[K                                       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:112:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K                           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:112:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K                                      ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:123:32:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src_img.empty()) return -1;
+[01;32m[K                                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:195:26:[m[K [01;31m[Kerror: [m[K‘[01m[KH1_MIN[m[K’ was not declared in this scope
+   Scalar s1_min = Scalar(H1_MIN, S1_MIN, V1_MIN);
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:195:34:[m[K [01;31m[Kerror: [m[K‘[01m[KS1_MIN[m[K’ was not declared in this scope
+   Scalar s1_min = Scalar(H1_MIN, S1_MIN, V1_MIN);
+[01;32m[K                                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:195:42:[m[K [01;31m[Kerror: [m[K‘[01m[KV1_MIN[m[K’ was not declared in this scope
+   Scalar s1_min = Scalar(H1_MIN, S1_MIN, V1_MIN);
+[01;32m[K                                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:196:26:[m[K [01;31m[Kerror: [m[K‘[01m[KH1_MAX[m[K’ was not declared in this scope
+   Scalar s1_max = Scalar(H1_MAX, S1_MAX, V1_MAX);
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:196:34:[m[K [01;31m[Kerror: [m[K‘[01m[KS1_MAX[m[K’ was not declared in this scope
+   Scalar s1_max = Scalar(H1_MAX, S1_MAX, V1_MAX);
+[01;32m[K                                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:196:42:[m[K [01;31m[Kerror: [m[K‘[01m[KV1_MAX[m[K’ was not declared in this scope
+   Scalar s1_max = Scalar(H1_MAX, S1_MAX, V1_MAX);
+[01;32m[K                                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:233:33:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src2_img.empty()) return -1;
+[01;32m[K                                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:340:4:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+    break;
+[01;32m[K    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:345:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+   const double time = static_cast<double>(end - start) / CLOCKS_PER_SEC * 1000.0;
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:345:49:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:47:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/init.h:184:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::start[m[K’
+ ROSCPP_DECL void start();
+[01;32m[K                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:[m[K At global scope:
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:349:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  return 0;
+[01;32m[K  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:350:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/cv_test_node.dir/all] エラー 2
+make: *** [all] エラー 2

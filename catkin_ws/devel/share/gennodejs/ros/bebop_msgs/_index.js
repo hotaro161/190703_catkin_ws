@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/mlab/catkin_ws/devel/.private/bebop_msgs/share/gennodejs/ros/bebop_msgs/_index.js

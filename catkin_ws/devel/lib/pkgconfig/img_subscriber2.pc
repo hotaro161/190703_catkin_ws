@@ -1,0 +1,1 @@
+/home/mlab/catkin_ws/devel/.private/img_subscriber2/lib/pkgconfig/img_subscriber2.pc

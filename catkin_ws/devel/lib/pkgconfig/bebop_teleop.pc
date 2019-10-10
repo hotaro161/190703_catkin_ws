@@ -1,8 +1,1 @@
-prefix=/home/mlab/catkin_ws/devel
-
-Name: bebop_teleop
-Description: Description of bebop_teleop
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mlab/catkin_ws/devel/lib 
-Requires: 
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/pkgconfig/bebop_teleop.pc

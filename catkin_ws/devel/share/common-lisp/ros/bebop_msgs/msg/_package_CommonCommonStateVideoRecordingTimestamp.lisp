@@ -1,8 +1,1 @@
-(cl:in-package bebop_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          STARTTIMESTAMP-VAL
-          STARTTIMESTAMP
-          STOPTIMESTAMP-VAL
-          STOPTIMESTAMP
-))
+/home/mlab/catkin_ws/devel/.private/bebop_msgs/share/common-lisp/ros/bebop_msgs/msg/_package_CommonCommonStateVideoRecordingTimestamp.lisp

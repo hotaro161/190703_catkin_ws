@@ -68,7 +68,7 @@ set(img_subscriber_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(img_subscriber_SOURCE_PREFIX /home/mlab/catkin_ws/src/img_subscriber)
-  set(img_subscriber_DEVEL_PREFIX /home/mlab/catkin_ws/devel)
+  set(img_subscriber_DEVEL_PREFIX /home/mlab/catkin_ws/devel/.private/img_subscriber)
   set(img_subscriber_INSTALL_PREFIX "")
   set(img_subscriber_PREFIX ${img_subscriber_DEVEL_PREFIX})
 else()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mlab/catkin_ws/install/lib;/home/mlab/old_ws/devel/lib;/home/mlab/bebop2_ws/devel/lib;/home/mlab/bebop_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/mlab/catkin_ws/install/lib;/home/mlab/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

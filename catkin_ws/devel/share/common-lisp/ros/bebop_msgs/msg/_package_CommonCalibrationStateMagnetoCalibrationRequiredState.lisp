@@ -1,6 +1,1 @@
-(cl:in-package bebop_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          REQUIRED-VAL
-          REQUIRED
-))
+/home/mlab/catkin_ws/devel/.private/bebop_msgs/share/common-lisp/ros/bebop_msgs/msg/_package_CommonCalibrationStateMagnetoCalibrationRequiredState.lisp

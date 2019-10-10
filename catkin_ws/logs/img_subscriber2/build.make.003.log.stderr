@@ -1,0 +1,7 @@
+In file included from [01m[K/home/mlab/catkin_ws/src/img_subscriber2/src/main.cpp:5:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber2/src/../include/img_subscriber2/img_data_subpub_node.hpp:50:72:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::aruco::PREDEFINED_DICTIONARY_NAME dictionary_name = cv::aruco::DICT_4X4_50;
+[01;32m[K                                                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber2/src/../include/img_subscriber2/img_data_subpub_node.hpp:51:99:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(dictionary_name);
+[01;32m[K                                                                                                   ^[m[K

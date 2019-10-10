@@ -1,0 +1,34 @@
+CMake Warning at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'system_lib' but neither
+  'system_lib_INCLUDE_DIRS' nor 'system_lib_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:108 (catkin_package)
+
+
+make[2]: 警告: ファイル '/home/mlab/catkin_ws/src/img_subscriber/src/img_data_subpub_node.cpp' の修正時刻 31355 は未来の時刻です
+In file included from [01m[K/home/mlab/catkin_ws/src/img_subscriber/src/img_data_subpub_node.cpp:1:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:51:72:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::aruco::PREDEFINED_DICTIONARY_NAME dictionary_name = cv::aruco::DICT_4X4_50;//DICT_4x4_50のARマーカを指定
+[01;32m[K                                                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:52:99:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(dictionary_name);//cv::Ptr<cv::aruco::Dictionary>の変数dictionaryを宣言したうえで格納
+[01;32m[K                                                                                                   ^[m[K
+In file included from [01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:5:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:51:72:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::aruco::PREDEFINED_DICTIONARY_NAME dictionary_name = cv::aruco::DICT_4X4_50;//DICT_4x4_50のARマーカを指定
+[01;32m[K                                                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:52:99:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(dictionary_name);//cv::Ptr<cv::aruco::Dictionary>の変数dictionaryを宣言したうえで格納
+[01;32m[K                                                                                                   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:50:84:[m[K [01;31m[Kerror: [m[K‘[01m[KImgData1[m[K’ has not been declared
+     image_transport::Subscriber image_sub1 = it1.subscribe("bebop1/image_raw", 10,&ImgData1::imageCallback, &imgData1);//Subscriberのインスタンスimage_subを宣言
+[01;32m[K                                                                                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:51:84:[m[K [01;31m[Kerror: [m[K‘[01m[KImgData2[m[K’ has not been declared
+     image_transport::Subscriber image_sub2 = it2.subscribe("bebop2/image_raw", 10,&ImgData2::imageCallback, &imgData2);//Subscriberのインスタンスimage_subを宣言
+[01;32m[K                                                                                    ^[m[K
+make[2]: *** [CMakeFiles/img_subscriber_node.dir/src/main.cpp.o] エラー 1
+make[2]: *** 未完了のジョブを待っています....
+make[1]: *** [CMakeFiles/img_subscriber_node.dir/all] エラー 2
+make: *** [all] エラー 2

@@ -1,0 +1,2 @@
+make[2]: 警告: ファイル '/home/mlab/catkin_ws/src/controller/include/controller/matlab_transmission.hpp' の修正時刻 30526 は未来の時刻です
+make[2]: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.

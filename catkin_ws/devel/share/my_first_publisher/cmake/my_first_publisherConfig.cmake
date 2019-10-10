@@ -1,0 +1,1 @@
+/home/mlab/catkin_ws/devel/.private/my_first_publisher/share/my_first_publisher/cmake/my_first_publisherConfig.cmake

@@ -1,0 +1,3 @@
+CMake Error: Error in cmake code at
+/home/mlab/catkin_ws/src/bebop_move2/CMakeLists.txt:151:
+Parse error.  Expected a command name, got unquoted argument with text "${{catkin_LIBRARIES}}".

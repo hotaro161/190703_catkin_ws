@@ -1,0 +1,10 @@
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:[m[K In member function ‘[01m[Kvoid ImgDataSub::imageCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:50:32:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+ int main(int argc, char** argv){
+[01;32m[K                                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:60:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/cv_test_node.dir/all] エラー 2
+make: *** [all] エラー 2

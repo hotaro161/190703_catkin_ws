@@ -1,0 +1,48 @@
+make[2]: 警告: ファイル '/home/mlab/catkin_ws/src/controller/include/controller/matlab_transmission.hpp' の修正時刻 31606 は未来の時刻です
+In file included from [01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:11:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/controller/src/../include/controller/bebop_controller.hpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/controller/src/../include/controller/bebop_controller.hpp:17:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros::Publisher BebopDriver::takeoff_vel_pub_[m[K’ is private
+     ros::Publisher takeoff_vel_pub_;//takeoffのパブリッシャを作成
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:24:13:[m[K [01;31m[Kerror: [m[Kwithin this context
+     driver1.takeoff_vel_pub_ = nh.advertise<std_msgs::Empty>("bebop1/takeoff",1);//"bebop/takeoffにtakeoff_vel_pub_を定義
+[01;32m[K             ^[m[K
+In file included from [01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:11:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/controller/src/../include/controller/bebop_controller.hpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros::Publisher BebopDriver::land_vel_pub_[m[K’ is private
+     ros::Publisher land_vel_pub_;//landのパブリッシャを作成
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:25:13:[m[K [01;31m[Kerror: [m[Kwithin this context
+     driver1.land_vel_pub_ = nh.advertise<std_msgs::Empty>("bebop1/land",1);//"bebop/landにland_vel_pub_を定義
+[01;32m[K             ^[m[K
+In file included from [01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:11:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/controller/src/../include/controller/bebop_controller.hpp:16:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros::Publisher BebopDriver::cmd_vel_pub_[m[K’ is private
+     ros::Publisher cmd_vel_pub_;//cmd_velのパブリッシャを作成
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:26:13:[m[K [01;31m[Kerror: [m[Kwithin this context
+     driver1.cmd_vel_pub_ = nh.advertise<geometry_msgs::Twist>("bebop1/cmd_vel",1);//"bebop/cmd_velにcmd_vel_pub_を定義
+[01;32m[K             ^[m[K
+In file included from [01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:11:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/controller/src/../include/controller/bebop_controller.hpp:17:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros::Publisher BebopDriver::takeoff_vel_pub_[m[K’ is private
+     ros::Publisher takeoff_vel_pub_;//takeoffのパブリッシャを作成
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:28:13:[m[K [01;31m[Kerror: [m[Kwithin this context
+     driver2.takeoff_vel_pub_ = nh.advertise<std_msgs::Empty>("bebop2/takeoff",1);//"bebop/takeoffにtakeoff_vel_pub_を定義
+[01;32m[K             ^[m[K
+In file included from [01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:11:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/controller/src/../include/controller/bebop_controller.hpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros::Publisher BebopDriver::land_vel_pub_[m[K’ is private
+     ros::Publisher land_vel_pub_;//landのパブリッシャを作成
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:29:13:[m[K [01;31m[Kerror: [m[Kwithin this context
+     driver2.land_vel_pub_ = nh.advertise<std_msgs::Empty>("bebop2/land",1);//"bebop/landにland_vel_pub_を定義
+[01;32m[K             ^[m[K
+In file included from [01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:11:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/controller/src/../include/controller/bebop_controller.hpp:16:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros::Publisher BebopDriver::cmd_vel_pub_[m[K’ is private
+     ros::Publisher cmd_vel_pub_;//cmd_velのパブリッシャを作成
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:30:13:[m[K [01;31m[Kerror: [m[Kwithin this context
+     driver2.cmd_vel_pub_ = nh.advertise<geometry_msgs::Twist>("bebop2/cmd_vel",1);//"bebop/cmd_velにcmd_vel_pub_を定義
+[01;32m[K             ^[m[K
+make[2]: *** [CMakeFiles/controller_node.dir/src/main.cpp.o] エラー 1
+make[2]: *** 未完了のジョブを待っています....
+make[1]: *** [CMakeFiles/controller_node.dir/all] エラー 2
+make: *** [all] エラー 2

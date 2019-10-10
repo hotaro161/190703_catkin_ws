@@ -1,7 +1,1 @@
-
-(cl:in-package :asdf)
-
-(defsystem "bebop_msgs-msg"
-  :depends-on (:roslisp-msg-protocol :roslisp-utils )
-  :components ((:file "_package")
-  ))
+/home/mlab/catkin_ws/devel/.private/bebop_msgs/share/common-lisp/ros/bebop_msgs/msg/bebop_msgs-msg.asd

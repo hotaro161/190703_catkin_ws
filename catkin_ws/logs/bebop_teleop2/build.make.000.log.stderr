@@ -1,0 +1,9 @@
+[01m[K/home/mlab/catkin_ws/src/bebop_teleop2/src/bebop_controller.cpp:1:56:[m[K [01;31m[Kfatal error: [m[K../include/bebop_teleop/bebop_controller.hpp: そのようなファイルやディレクトリはありません
+compilation terminated.
+make[2]: *** [CMakeFiles/bebop_teleop2_node.dir/src/bebop_controller.cpp.o] エラー 1
+make[2]: *** 未完了のジョブを待っています....
+[01m[K/home/mlab/catkin_ws/src/bebop_teleop2/src/main.cpp:19:56:[m[K [01;31m[Kfatal error: [m[K../include/bebop_teleop/bebop_controller.hpp: そのようなファイルやディレクトリはありません
+compilation terminated.
+make[2]: *** [CMakeFiles/bebop_teleop2_node.dir/src/main.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/bebop_teleop2_node.dir/all] エラー 2
+make: *** [all] エラー 2

@@ -1,8 +1,1 @@
-prefix=/home/mlab/catkin_ws/devel
-
-Name: bebop_tools
-Description: Description of bebop_tools
-Version: 0.7.0
-Cflags: 
-Libs: -L/home/mlab/catkin_ws/devel/lib 
-Requires: bebop_msgs
+/home/mlab/catkin_ws/devel/.private/bebop_tools/lib/pkgconfig/bebop_tools.pc

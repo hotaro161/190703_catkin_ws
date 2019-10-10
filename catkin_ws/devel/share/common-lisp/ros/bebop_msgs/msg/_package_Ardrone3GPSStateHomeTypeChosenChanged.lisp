@@ -1,6 +1,1 @@
-(cl:in-package bebop_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          TYPE-VAL
-          TYPE
-))
+/home/mlab/catkin_ws/devel/.private/bebop_msgs/share/common-lisp/ros/bebop_msgs/msg/_package_Ardrone3GPSStateHomeTypeChosenChanged.lisp

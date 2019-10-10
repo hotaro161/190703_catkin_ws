@@ -1,0 +1,8 @@
+prefix=/home/mlab/catkin_ws/devel/.private/bebop_move2
+
+Name: bebop_move2
+Description: Description of bebop_move2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mlab/catkin_ws/devel/.private/bebop_move2/lib 
+Requires: 

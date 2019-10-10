@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target cv_test_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/mlab/catkin_ws/devel/.private/cv_test/lib/cv_test/cv_test_node[0m
+[100%] Built target cv_test_node

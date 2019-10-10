@@ -1,0 +1,22 @@
+[01m[K/home/mlab/catkin_ws/src/bebop_stop/src/bebop_stop_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/bebop_stop/src/bebop_stop_node.cpp:14:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Publisher land_pub[m[K’
+  ros::Publisher land_pub=nh.advertise<std_msgs::Empty>("/bebop1/land", 1000);
+[01;32m[K                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_stop/src/bebop_stop_node.cpp:13:17:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Publisher land_pub[m[K’ previously declared here
+  ros::Publisher land_pub=nh.advertise<std_msgs::Empty>("/bebop/land", 1000);
+[01;32m[K                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_stop/src/bebop_stop_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Publisher land_pub[m[K’
+  ros::Publisher land_pub=nh.advertise<std_msgs::Empty>("/bebop2/land", 1000);
+[01;32m[K                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_stop/src/bebop_stop_node.cpp:13:17:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Publisher land_pub[m[K’ previously declared here
+  ros::Publisher land_pub=nh.advertise<std_msgs::Empty>("/bebop/land", 1000);
+[01;32m[K                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_stop/src/bebop_stop_node.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kland1_pub[m[K’ was not declared in this scope
+   land1_pub.publish(land_cmd);
+[01;32m[K   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_stop/src/bebop_stop_node.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kland2_pub[m[K’ was not declared in this scope
+   land2_pub.publish(land_cmd);
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/bebop_stop_node.dir/src/bebop_stop_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/bebop_stop_node.dir/all] エラー 2
+make: *** [all] エラー 2

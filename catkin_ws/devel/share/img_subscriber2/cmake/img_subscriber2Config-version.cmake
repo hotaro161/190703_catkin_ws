@@ -1,0 +1,1 @@
+/home/mlab/catkin_ws/devel/.private/img_subscriber2/share/img_subscriber2/cmake/img_subscriber2Config-version.cmake

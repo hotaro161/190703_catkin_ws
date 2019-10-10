@@ -51,11 +51,12 @@ void ImgDataSub::imageCallback(const sensor_msgs::ImageConstPtr& msg)
 int main(int argc,char **argv){
     geometry_msgs::Twist bebop_cmd;
     geometry_msgs::Twist bebop_camera;
-    ros::init(argc,argv,"bebop_driver");
+    ros::init(argc,argv,"bebop_teleop2");
+    //ros::init(argc,argv,"bebop_driver");
     ros::NodeHandle nh;
     ImgDataSub imgSub;
     image_transport::ImageTransport it(nh);
-    image_transport::Subscriber image_sub = it.subscribe("image_raw",10,&ImgDataSub::imageCallback,&imgSub);
+    image_transport::Subscriber image_sub = it.subscribe("bebop1/image_raw",10,&ImgDataSub::imageCallback,&imgSub);
     BebopDriver driver(nh);
     char quit;
     static int count = 0;

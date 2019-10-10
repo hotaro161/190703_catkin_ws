@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target cv_test_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o[0m
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:[m[K In member function ‘[01m[Kvoid ImgDataSub::imageCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:111:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K                           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:111:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K                                      ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:122:32:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src_img.empty()) return -1;
+[01;32m[K                                ^[m[K
+CMakeFiles/cv_test_node.dir/build.make:62: ターゲット 'CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o' のレシピで失敗しました
+make[2]: *** [CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o] エラー 1
+CMakeFiles/Makefile2:963: ターゲット 'CMakeFiles/cv_test_node.dir/all' のレシピで失敗しました
+make[1]: *** [CMakeFiles/cv_test_node.dir/all] エラー 2
+Makefile:138: ターゲット 'all' のレシピで失敗しました
+make: *** [all] エラー 2

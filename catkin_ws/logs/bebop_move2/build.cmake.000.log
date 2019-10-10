@@ -1,0 +1,5 @@
+Not searching for unused variables given on the command line.
+CMake Error: Error in cmake code at
+/home/mlab/catkin_ws/src/bebop_move2/CMakeLists.txt:151:
+Parse error.  Expected a command name, got unquoted argument with text "${{catkin_LIBRARIES}}".
+[36m--[0m Configuring incomplete, errors occurred!

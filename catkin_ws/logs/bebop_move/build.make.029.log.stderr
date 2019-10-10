@@ -1,0 +1,7 @@
+CMakeFiles/bebop_move_node.dir/src/bebop_move_node.cpp.o: 関数 `main' 内:
+bebop_move_node.cpp:(.text+0x9d7): `stdscr' に対する定義されていない参照です
+bebop_move_node.cpp:(.text+0x9df): `wgetch' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/mlab/catkin_ws/devel/.private/bebop_move/lib/bebop_move/bebop_move_node] エラー 1
+make[1]: *** [CMakeFiles/bebop_move_node.dir/all] エラー 2
+make: *** [all] エラー 2

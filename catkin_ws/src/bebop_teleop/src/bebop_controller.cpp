@@ -1,10 +1,10 @@
 #include "../include/bebop_teleop/bebop_controller.hpp"
 BebopDriver::BebopDriver(ros::NodeHandle &nh){
     nh_ = nh;
-    takeoff_vel_pub_ = nh_.advertise<std_msgs::Empty>("takeoff",1);
-    land_vel_pub_ = nh_.advertise<std_msgs::Empty>("land",1);
-    cmd_vel_pub_ = nh_.advertise<geometry_msgs::Twist>("cmd_vel",1);
-    camera_pra_pub_ = nh_.advertise<geometry_msgs::Twist>("camera_control",1);
+    takeoff_vel_pub_ = nh_.advertise<std_msgs::Empty>("bebop1/takeoff",1);
+    land_vel_pub_ = nh_.advertise<std_msgs::Empty>("bebop1/land",1);
+    cmd_vel_pub_ = nh_.advertise<geometry_msgs::Twist>("bebop1/cmd_vel",1);
+    camera_pra_pub_ = nh_.advertise<geometry_msgs::Twist>("bebop1/camera_control",1);
 }
 void BebopDriver::takeoff(){
     takeoff_vel_pub_.publish(takeoff_cmd);

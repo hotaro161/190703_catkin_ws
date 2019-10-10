@@ -1,8 +1,0 @@
-prefix=/home/mlab/catkin_ws/devel
-
-Name: webcam
-Description: Description of webcam
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mlab/catkin_ws/devel/lib 
-Requires: 

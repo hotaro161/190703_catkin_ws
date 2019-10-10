@@ -1,8 +1,1 @@
-prefix=/home/mlab/catkin_ws/devel
-
-Name: bebop_description
-Description: Description of bebop_description
-Version: 0.7.0
-Cflags: 
-Libs: -L/home/mlab/catkin_ws/devel/lib 
-Requires: 
+/home/mlab/catkin_ws/devel/.private/bebop_description/lib/pkgconfig/bebop_description.pc

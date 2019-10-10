@@ -1,0 +1,9 @@
+make[2]: 警告: ファイル '/home/mlab/catkin_ws/src/controller/src/main.cpp' の修正時刻 32075 は未来の時刻です
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/controller/src/main.cpp:30:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatsub[m[K’ was not declared in this scope
+         if(matsub.command.angular.y == 1){//matsub.command.angular.y==1なら条件に入る
+[01;32m[K            ^[m[K
+make[2]: *** [CMakeFiles/controller_node.dir/src/main.cpp.o] エラー 1
+make[2]: *** 未完了のジョブを待っています....
+make[1]: *** [CMakeFiles/controller_node.dir/all] エラー 2
+make: *** [all] エラー 2

@@ -43,66 +43,66 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/mlab/catkin_ws/src/bebop_teleop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mlab/catkin_ws/build
+CMAKE_BINARY_DIR = /home/mlab/catkin_ws/build/bebop_teleop
 
 # Include any dependencies generated for this target.
-include bebop_teleop/CMakeFiles/bebop_teleop_node.dir/depend.make
+include CMakeFiles/bebop_teleop_node.dir/depend.make
 
 # Include the progress variables for this target.
-include bebop_teleop/CMakeFiles/bebop_teleop_node.dir/progress.make
+include CMakeFiles/bebop_teleop_node.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include bebop_teleop/CMakeFiles/bebop_teleop_node.dir/flags.make
+include CMakeFiles/bebop_teleop_node.dir/flags.make
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/flags.make
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o: /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o"
-	cd /home/mlab/catkin_ws/build/bebop_teleop && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o -c /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp
+CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o: CMakeFiles/bebop_teleop_node.dir/flags.make
+CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o: /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mlab/catkin_ws/build/bebop_teleop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o -c /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.i: cmake_force
+CMakeFiles/bebop_teleop_node.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bebop_teleop_node.dir/src/main.cpp.i"
-	cd /home/mlab/catkin_ws/build/bebop_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp > CMakeFiles/bebop_teleop_node.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp > CMakeFiles/bebop_teleop_node.dir/src/main.cpp.i
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.s: cmake_force
+CMakeFiles/bebop_teleop_node.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bebop_teleop_node.dir/src/main.cpp.s"
-	cd /home/mlab/catkin_ws/build/bebop_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp -o CMakeFiles/bebop_teleop_node.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mlab/catkin_ws/src/bebop_teleop/src/main.cpp -o CMakeFiles/bebop_teleop_node.dir/src/main.cpp.s
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires:
+CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires:
 
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires
+.PHONY : CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires
-	$(MAKE) -f bebop_teleop/CMakeFiles/bebop_teleop_node.dir/build.make bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides.build
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides
+CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides: CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bebop_teleop_node.dir/build.make CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides.build: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o
+CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.provides.build: CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o
 
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/flags.make
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o: /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o"
-	cd /home/mlab/catkin_ws/build/bebop_teleop && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o -c /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp
+CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o: CMakeFiles/bebop_teleop_node.dir/flags.make
+CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o: /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mlab/catkin_ws/build/bebop_teleop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o -c /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.i: cmake_force
+CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.i"
-	cd /home/mlab/catkin_ws/build/bebop_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp > CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp > CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.i
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.s: cmake_force
+CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.s"
-	cd /home/mlab/catkin_ws/build/bebop_teleop && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp -o CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mlab/catkin_ws/src/bebop_teleop/src/bebop_controller.cpp -o CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.s
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires:
+CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires:
 
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires
+.PHONY : CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires
-	$(MAKE) -f bebop_teleop/CMakeFiles/bebop_teleop_node.dir/build.make bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides.build
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides
+CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides: CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bebop_teleop_node.dir/build.make CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides.build
+.PHONY : CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides.build: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o
+CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.provides.build: CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o
 
 
 # Object files for target bebop_teleop_node
@@ -113,141 +113,141 @@ bebop_teleop_node_OBJECTS = \
 # External object files for target bebop_teleop_node
 bebop_teleop_node_EXTERNAL_OBJECTS =
 
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/build.make
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libimage_transport.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/libPocoFoundation.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroslib.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librospack.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librostime.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libimage_transport.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/libPocoFoundation.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroslib.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librospack.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librostime.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node"
-	cd /home/mlab/catkin_ws/build/bebop_teleop && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bebop_teleop_node.dir/link.txt --verbose=$(VERBOSE)
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: CMakeFiles/bebop_teleop_node.dir/build.make
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libimage_transport.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/libPocoFoundation.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroslib.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librospack.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librostime.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libimage_transport.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/libPocoFoundation.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroslib.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librospack.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/librostime.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node: CMakeFiles/bebop_teleop_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mlab/catkin_ws/build/bebop_teleop/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bebop_teleop_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/build: /home/mlab/catkin_ws/devel/lib/bebop_teleop/bebop_teleop_node
+CMakeFiles/bebop_teleop_node.dir/build: /home/mlab/catkin_ws/devel/.private/bebop_teleop/lib/bebop_teleop/bebop_teleop_node
 
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/build
+.PHONY : CMakeFiles/bebop_teleop_node.dir/build
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/requires: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/requires: bebop_teleop/CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires
+CMakeFiles/bebop_teleop_node.dir/requires: CMakeFiles/bebop_teleop_node.dir/src/main.cpp.o.requires
+CMakeFiles/bebop_teleop_node.dir/requires: CMakeFiles/bebop_teleop_node.dir/src/bebop_controller.cpp.o.requires
 
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/requires
+.PHONY : CMakeFiles/bebop_teleop_node.dir/requires
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/clean:
-	cd /home/mlab/catkin_ws/build/bebop_teleop && $(CMAKE_COMMAND) -P CMakeFiles/bebop_teleop_node.dir/cmake_clean.cmake
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/clean
+CMakeFiles/bebop_teleop_node.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/bebop_teleop_node.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/bebop_teleop_node.dir/clean
 
-bebop_teleop/CMakeFiles/bebop_teleop_node.dir/depend:
-	cd /home/mlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mlab/catkin_ws/src /home/mlab/catkin_ws/src/bebop_teleop /home/mlab/catkin_ws/build /home/mlab/catkin_ws/build/bebop_teleop /home/mlab/catkin_ws/build/bebop_teleop/CMakeFiles/bebop_teleop_node.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : bebop_teleop/CMakeFiles/bebop_teleop_node.dir/depend
+CMakeFiles/bebop_teleop_node.dir/depend:
+	cd /home/mlab/catkin_ws/build/bebop_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mlab/catkin_ws/src/bebop_teleop /home/mlab/catkin_ws/src/bebop_teleop /home/mlab/catkin_ws/build/bebop_teleop /home/mlab/catkin_ws/build/bebop_teleop /home/mlab/catkin_ws/build/bebop_teleop/CMakeFiles/bebop_teleop_node.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/bebop_teleop_node.dir/depend
 

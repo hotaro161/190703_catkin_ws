@@ -1,0 +1,7 @@
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:55:82:[m[K [01;31m[Kerror: [m[K‘[01m[KImgData[m[K’ has not been declared
+     image_transport::Subscriber image_sub = it.subscribe("bebop2/image_raw", 10,&ImgData::imageCallback, &imgData);
+[01;32m[K                                                                                  ^[m[K
+make[2]: *** [CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/cv_test_node.dir/all] エラー 2
+make: *** [all] エラー 2

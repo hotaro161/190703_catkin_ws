@@ -1,0 +1,22 @@
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:[m[K In constructor ‘[01m[KBebopDriver::BebopDriver(ros::NodeHandle&)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:63:30:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+     void BebopDriver::takeoff(){
+[01;32m[K                              ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:66:27:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+     void BebopDriver::land(){
+[01;32m[K                           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:70:30:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+     void BebopDriver::control(float linearX,float linearY,float linearZ,float angularZ){
+[01;32m[K                              ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:78:37:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+     void BebopDriver::camera_control(float angularY,float angularZ){
+[01;32m[K                                     ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:84:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+     void BebopDriver::reset(){
+[01;32m[K                            ^[m[K
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:138:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/bebop_move_node.dir/src/bebop_move_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/bebop_move_node.dir/all] エラー 2
+make: *** [all] エラー 2

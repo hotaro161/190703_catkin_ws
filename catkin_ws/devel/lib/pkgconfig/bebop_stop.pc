@@ -1,0 +1,1 @@
+/home/mlab/catkin_ws/devel/.private/bebop_stop/lib/pkgconfig/bebop_stop.pc

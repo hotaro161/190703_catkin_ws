@@ -1,0 +1,5 @@
+[01m[K/home/mlab/catkin_ws/src/bebop_move/src/bebop_move_node.cpp:4:28:[m[K [01;31m[Kfatal error: [m[Kopencv2/core.hpp: そのようなファイルやディレクトリはありません
+compilation terminated.
+make[2]: *** [CMakeFiles/bebop_move_node.dir/src/bebop_move_node.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/bebop_move_node.dir/all] エラー 2
+make: *** [all] エラー 2

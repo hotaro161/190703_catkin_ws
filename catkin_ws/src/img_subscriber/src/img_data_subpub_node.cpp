@@ -99,7 +99,7 @@ void ImgData::imageCallback(const sensor_msgs::ImageConstPtr& msg)
 	cv::aruco::drawDetectedMarkers(org, marker_corners, marker_ids);
     circle(org,Point(IMAGE_WIDTH,IMAGE_HEIGHT),1,cv::Scalar(255,0,0),2,CV_AA);
     cv::resize(org,org,cv::Size(),0.5,0.5);
-	cv::imshow("marker_detection", org);
+	cv::imshow("marker_detection1", org);
     //imshow("result",result);
     //imshow("fil",img);
     imageDataPub();

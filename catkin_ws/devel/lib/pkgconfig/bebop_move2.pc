@@ -1,0 +1,1 @@
+/home/mlab/catkin_ws/devel/.private/bebop_move2/lib/pkgconfig/bebop_move2.pc

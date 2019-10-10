@@ -1,0 +1,6 @@
+CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o: 関数 `main' 内:
+cv_test_node.cpp:(.text+0x6fe): `BebopDriver::BebopDriver(ros::NodeHandle&)' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/mlab/catkin_ws/devel/.private/cv_test/lib/cv_test/cv_test_node] エラー 1
+make[1]: *** [CMakeFiles/cv_test_node.dir/all] エラー 2
+make: *** [all] エラー 2

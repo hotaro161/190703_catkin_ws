@@ -1,0 +1,5 @@
+img_subscriber
+/home/mlab/catkin_ws/devel/.private/img_subscriber/lib/pkgconfig/img_subscriber.pc /home/mlab/catkin_ws/devel/lib/pkgconfig/img_subscriber.pc
+/home/mlab/catkin_ws/devel/.private/img_subscriber/lib/img_subscriber/img_subscriber_node /home/mlab/catkin_ws/devel/lib/img_subscriber/img_subscriber_node
+/home/mlab/catkin_ws/devel/.private/img_subscriber/share/img_subscriber/cmake/img_subscriberConfig-version.cmake /home/mlab/catkin_ws/devel/share/img_subscriber/cmake/img_subscriberConfig-version.cmake
+/home/mlab/catkin_ws/devel/.private/img_subscriber/share/img_subscriber/cmake/img_subscriberConfig.cmake /home/mlab/catkin_ws/devel/share/img_subscriber/cmake/img_subscriberConfig.cmake

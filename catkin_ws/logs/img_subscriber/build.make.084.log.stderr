@@ -1,0 +1,21 @@
+In file included from [01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:5:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:51:72:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::aruco::PREDEFINED_DICTIONARY_NAME dictionary_name = cv::aruco::DICT_4X4_50;//DICT_4x4_50のARマーカを指定
+[01;32m[K                                                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:52:99:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(dictionary_name);//cv::Ptr<cv::aruco::Dictionary>の変数dictionaryを宣言したうえで格納
+[01;32m[K                                                                                                   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:58:33:[m[K [01;31m[Kerror: [m[K‘[01m[KimdData1[m[K’ was not declared in this scope
+     imshow("marker_detection1", imdData1.org);
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:5:0[m[K:
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/../include/img_subscriber/img_data_subpub_node.hpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv::Mat ImgData::org[m[K’ is private
+     Mat org;
+[01;32m[K         ^[m[K
+[01m[K/home/mlab/catkin_ws/src/img_subscriber/src/main.cpp:59:42:[m[K [01;31m[Kerror: [m[Kwithin this context
+     imshow("marker_detection2", imgData2.org);
+[01;32m[K                                          ^[m[K
+make[2]: *** [CMakeFiles/img_subscriber_node.dir/src/main.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/img_subscriber_node.dir/all] エラー 2
+make: *** [all] エラー 2

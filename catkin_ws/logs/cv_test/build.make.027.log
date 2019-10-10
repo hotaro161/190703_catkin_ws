@@ -1,0 +1,437 @@
+[35m[1mScanning dependencies of target cv_test_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o[0m
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:[m[K In member function ‘[01m[Kvoid ImgDataSub::imageCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:78:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+    return -1;
+[01;32m[K            ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:127:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K                           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:127:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K                                      ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:138:32:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src_img.empty()) return -1;
+[01;32m[K                                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:182:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat input_image_rgb[m[K’
+   Mat input_image_rgb = imread(input_filename, CV_LOAD_IMAGE_COLOR);
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:75:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat input_image_rgb[m[K’ previously declared here
+   Mat input_image_rgb = imread(input_filename, CV_LOAD_IMAGE_COLOR);
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:185:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+    return -1;
+[01;32m[K            ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:193:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat hsv_image[m[K’
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:86:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat hsv_image[m[K’ previously declared here
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:193:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat mask_image[m[K’
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:86:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat mask_image[m[K’ previously declared here
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:193:30:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat output_image[m[K’
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                              ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:86:30:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat output_image[m[K’ previously declared here
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                              ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:198:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat hsv_blur_image[m[K’
+   Mat hsv_blur_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:91:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat hsv_blur_image[m[K’ previously declared here
+   Mat hsv_blur_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:199:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat hsv_red_image[m[K’
+   Mat hsv_red_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:92:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat hsv_red_image[m[K’ previously declared here
+   Mat hsv_red_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:209:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Scalar s_min[m[K’
+   Scalar s_min = Scalar(H_MIN, S_MIN, V_MIN);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:102:10:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar s_min[m[K’ previously declared here
+   Scalar s_min = Scalar(H_MIN, S_MIN, V_MIN);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:210:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Scalar s_max[m[K’
+   Scalar s_max = Scalar(H_MAX, S_MAX, V_MAX);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:103:10:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar s_max[m[K’ previously declared here
+   Scalar s_max = Scalar(H_MAX, S_MAX, V_MAX);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:234:15:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst char* imagename[m[K’
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K               ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:127:15:[m[K [01;36m[Knote: [m[K‘[01m[Kconst char* imagename[m[K’ previously declared here
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K               ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:238:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int contour_index[m[K’
+   const int contour_index = -1; //輪郭の指定
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:131:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int contour_index[m[K’ previously declared here
+   const int contour_index = -1; //輪郭の指定
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:239:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int max_level[m[K’
+   const int max_level = 100;  //太さ
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:132:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int max_level[m[K’ previously declared here
+   const int max_level = 100;  //太さ
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:240:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint x_1 [10000][m[K’
+   int x_1[10000] = { 0 };
+[01;32m[K                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:133:7:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint x_1 [1000][m[K’
+   int x_1[1000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:241:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint y_1 [10000][m[K’
+   int y_1[10000] = { 0 };
+[01;32m[K                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:134:7:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint y_1 [1000][m[K’
+   int y_1[1000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:244:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat src_img[m[K’
+   cv::Mat src_img = cv::imread(imagename, 1);
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:137:11:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat src_img[m[K’ previously declared here
+   cv::Mat src_img = cv::imread(imagename, 1);
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:245:32:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src_img.empty()) return -1;
+[01;32m[K                                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:248:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat gray_img[m[K’
+   cv::Mat gray_img, bin_img;
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:141:11:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat gray_img[m[K’ previously declared here
+   cv::Mat gray_img, bin_img;
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:248:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat bin_img[m[K’
+   cv::Mat gray_img, bin_img;
+[01;32m[K                     ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:141:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat bin_img[m[K’ previously declared here
+   cv::Mat gray_img, bin_img;
+[01;32m[K                     ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:253:40:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > > contours[m[K’
+   std::vector<std::vector<cv::Point> > contours;
+[01;32m[K                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:146:40:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::vector<cv::Point_<int> > > contours[m[K’ previously declared here
+   std::vector<std::vector<cv::Point> > contours;
+[01;32m[K                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:254:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<cv::Vec<int, 4> > hierarchy[m[K’
+   std::vector<cv::Vec4i> hierarchy;
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:147:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<cv::Vec<int, 4> > hierarchy[m[K’ previously declared here
+   std::vector<cv::Vec4i> hierarchy;
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:267:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint a[m[K’
+   int a = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:160:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint a[m[K’ previously declared here
+   int a = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:278:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble max_area[m[K’
+   double max_area = 300;
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:171:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble max_area[m[K’ previously declared here
+   double max_area = 300;
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:279:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint zahyou [10000][m[K’
+   int zahyou[10000] = { 0 };
+[01;32m[K                   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:172:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint zahyou [10000][m[K’ previously declared here
+   int zahyou[10000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:280:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint b[m[K’
+   int b = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:173:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint b[m[K’ previously declared here
+   int b = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:355:33:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src2_img.empty()) return -1;
+[01;32m[K                                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:445:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat input_image_rgb[m[K’
+   Mat input_image_rgb = imread(input_filename, CV_LOAD_IMAGE_COLOR);
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:75:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat input_image_rgb[m[K’ previously declared here
+   Mat input_image_rgb = imread(input_filename, CV_LOAD_IMAGE_COLOR);
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:448:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+    return -1;
+[01;32m[K            ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:456:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat hsv_image[m[K’
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:86:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat hsv_image[m[K’ previously declared here
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:456:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat mask_image[m[K’
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:86:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat mask_image[m[K’ previously declared here
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:456:30:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat output_image[m[K’
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                              ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:86:30:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat output_image[m[K’ previously declared here
+   Mat hsv_image, mask_image, output_image;
+[01;32m[K                              ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:461:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat hsv_blur_image[m[K’
+   Mat hsv_blur_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:91:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat hsv_blur_image[m[K’ previously declared here
+   Mat hsv_blur_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:462:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat hsv_red_image[m[K’
+   Mat hsv_red_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:92:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat hsv_red_image[m[K’ previously declared here
+   Mat hsv_red_image = hsv_image.clone();
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:472:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Scalar s_min[m[K’
+   Scalar s_min = Scalar(H_MIN, S_MIN, V_MIN);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:102:10:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar s_min[m[K’ previously declared here
+   Scalar s_min = Scalar(H_MIN, S_MIN, V_MIN);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:473:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Scalar s_max[m[K’
+   Scalar s_max = Scalar(H_MAX, S_MAX, V_MAX);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:103:10:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar s_max[m[K’ previously declared here
+   Scalar s_max = Scalar(H_MAX, S_MAX, V_MAX);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:497:15:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst char* imagename[m[K’
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K               ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:127:15:[m[K [01;36m[Knote: [m[K‘[01m[Kconst char* imagename[m[K’ previously declared here
+   const char *imagename = argc > 1 ? argv[1] : "output.jpg";
+[01;32m[K               ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:501:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int contour_index[m[K’
+   const int contour_index = -1; //輪郭の指定
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:131:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int contour_index[m[K’ previously declared here
+   const int contour_index = -1; //輪郭の指定
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:502:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int max_level[m[K’
+   const int max_level = 100;  //太さ
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:132:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int max_level[m[K’ previously declared here
+   const int max_level = 100;  //太さ
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:503:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint x_1 [10000][m[K’
+   int x_1[10000] = { 0 };
+[01;32m[K                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:133:7:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint x_1 [1000][m[K’
+   int x_1[1000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:504:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kint y_1 [10000][m[K’
+   int y_1[10000] = { 0 };
+[01;32m[K                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:134:7:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint y_1 [1000][m[K’
+   int y_1[1000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:507:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat src_img[m[K’
+   cv::Mat src_img = cv::imread(imagename, 1);
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:137:11:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat src_img[m[K’ previously declared here
+   cv::Mat src_img = cv::imread(imagename, 1);
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:508:32:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src_img.empty()) return -1;
+[01;32m[K                                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:511:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat gray_img[m[K’
+   cv::Mat gray_img, bin_img;
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:141:11:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat gray_img[m[K’ previously declared here
+   cv::Mat gray_img, bin_img;
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:511:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat bin_img[m[K’
+   cv::Mat gray_img, bin_img;
+[01;32m[K                     ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:141:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat bin_img[m[K’ previously declared here
+   cv::Mat gray_img, bin_img;
+[01;32m[K                     ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:516:40:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > > contours[m[K’
+   std::vector<std::vector<cv::Point> > contours;
+[01;32m[K                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:146:40:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::vector<cv::Point_<int> > > contours[m[K’ previously declared here
+   std::vector<std::vector<cv::Point> > contours;
+[01;32m[K                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:517:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<cv::Vec<int, 4> > hierarchy[m[K’
+   std::vector<cv::Vec4i> hierarchy;
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:147:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<cv::Vec<int, 4> > hierarchy[m[K’ previously declared here
+   std::vector<cv::Vec4i> hierarchy;
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:530:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint a[m[K’
+   int a = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:160:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint a[m[K’ previously declared here
+   int a = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:541:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble max_area[m[K’
+   double max_area = 300;
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:171:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble max_area[m[K’ previously declared here
+   double max_area = 300;
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:542:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint zahyou [10000][m[K’
+   int zahyou[10000] = { 0 };
+[01;32m[K                   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:172:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint zahyou [10000][m[K’ previously declared here
+   int zahyou[10000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:543:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint b[m[K’
+   int b = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:173:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint b[m[K’ previously declared here
+   int b = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:576:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat mask1_image[m[K’
+   Mat mask1_image, output1_image, mask2_image;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:313:7:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat mask1_image[m[K’ previously declared here
+   Mat mask1_image, output1_image, mask2_image;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:576:20:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat output1_image[m[K’
+   Mat mask1_image, output1_image, mask2_image;
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:313:20:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat output1_image[m[K’ previously declared here
+   Mat mask1_image, output1_image, mask2_image;
+[01;32m[K                    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:576:35:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat mask2_image[m[K’
+   Mat mask1_image, output1_image, mask2_image;
+[01;32m[K                                   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:313:35:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat mask2_image[m[K’ previously declared here
+   Mat mask1_image, output1_image, mask2_image;
+[01;32m[K                                   ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:580:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Scalar s1_min[m[K’
+   Scalar s1_min = Scalar(H1_MIN, S1_MIN, V1_MIN);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:317:10:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar s1_min[m[K’ previously declared here
+   Scalar s1_min = Scalar(H1_MIN, S1_MIN, V1_MIN);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:581:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Scalar s1_max[m[K’
+   Scalar s1_max = Scalar(H1_MAX, S1_MAX, V1_MAX);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:318:10:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar s1_max[m[K’ previously declared here
+   Scalar s1_max = Scalar(H1_MAX, S1_MAX, V1_MAX);
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:610:15:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst char* imagename2[m[K’
+   const char *imagename2 = argc > 1 ? argv[1] : "output1.jpg";
+[01;32m[K               ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:347:15:[m[K [01;36m[Knote: [m[K‘[01m[Kconst char* imagename2[m[K’ previously declared here
+   const char *imagename2 = argc > 1 ? argv[1] : "output1.jpg";
+[01;32m[K               ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:611:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int contour_index2[m[K’
+   const int contour_index2 = -1; //輪郭の指定
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:348:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int contour_index2[m[K’ previously declared here
+   const int contour_index2 = -1; //輪郭の指定
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:612:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst int max_level2[m[K’
+   const int max_level2 = 100;  //太さ
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:349:13:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int max_level2[m[K’ previously declared here
+   const int max_level2 = 100;  //太さ
+[01;32m[K             ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:613:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint x_2 [10000][m[K’
+   int x_2[10000] = { 0 };
+[01;32m[K                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:350:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint x_2 [10000][m[K’ previously declared here
+   int x_2[10000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:614:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint y_2 [10000][m[K’
+   int y_2[10000] = { 0 };
+[01;32m[K                ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:351:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint y_2 [10000][m[K’ previously declared here
+   int y_2[10000] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:617:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat src2_img[m[K’
+   cv::Mat src2_img = cv::imread(imagename2, 1);
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:354:11:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat src2_img[m[K’ previously declared here
+   cv::Mat src2_img = cv::imread(imagename2, 1);
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:618:33:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [-fpermissive]
+   if (src2_img.empty()) return -1;
+[01;32m[K                                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:621:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat gray2_img[m[K’
+   cv::Mat gray2_img, bin2_img;
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:358:11:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat gray2_img[m[K’ previously declared here
+   cv::Mat gray2_img, bin2_img;
+[01;32m[K           ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:621:22:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::Mat bin2_img[m[K’
+   cv::Mat gray2_img, bin2_img;
+[01;32m[K                      ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:358:22:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat bin2_img[m[K’ previously declared here
+   cv::Mat gray2_img, bin2_img;
+[01;32m[K                      ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:626:40:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > > contours2[m[K’
+   std::vector<std::vector<cv::Point> > contours2;
+[01;32m[K                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:363:40:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::vector<cv::Point_<int> > > contours2[m[K’ previously declared here
+   std::vector<std::vector<cv::Point> > contours2;
+[01;32m[K                                        ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:627:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<cv::Vec<int, 4> > hierarchy2[m[K’
+   std::vector<cv::Vec4i> hierarchy2;
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:364:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<cv::Vec<int, 4> > hierarchy2[m[K’ previously declared here
+   std::vector<cv::Vec4i> hierarchy2;
+[01;32m[K                          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:640:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint a2[m[K’
+   int a2 = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:377:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint a2[m[K’ previously declared here
+   int a2 = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:653:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble max_area2[m[K’
+   double max_area2 = 300;
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:390:10:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble max_area2[m[K’ previously declared here
+   double max_area2 = 300;
+[01;32m[K          ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:654:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint zahyou2 [100][m[K’
+   int zahyou2[100] = { 0 };
+[01;32m[K                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:391:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint zahyou2 [100][m[K’ previously declared here
+   int zahyou2[100] = { 0 };
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:655:7:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint b2[m[K’
+   int b2 = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:392:7:[m[K [01;36m[Knote: [m[K‘[01m[Kint b2[m[K’ previously declared here
+   int b2 = 0;
+[01;32m[K       ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:758:4:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+    break;
+[01;32m[K    ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:763:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+   const double time = static_cast<double>(end - start) / CLOCKS_PER_SEC * 1000.0;
+[01;32m[K                                                 ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:763:49:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:47:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/init.h:184:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::start[m[K’
+ ROSCPP_DECL void start();
+[01;32m[K                  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:[m[K At global scope:
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:767:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  return 0;
+[01;32m[K  ^[m[K
+[01m[K/home/mlab/catkin_ws/src/cv_test/src/cv_test_node.cpp:768:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+CMakeFiles/cv_test_node.dir/build.make:62: ターゲット 'CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o' のレシピで失敗しました
+make[2]: *** [CMakeFiles/cv_test_node.dir/src/cv_test_node.cpp.o] エラー 1
+CMakeFiles/Makefile2:963: ターゲット 'CMakeFiles/cv_test_node.dir/all' のレシピで失敗しました
+make[1]: *** [CMakeFiles/cv_test_node.dir/all] エラー 2
+Makefile:138: ターゲット 'all' のレシピで失敗しました
+make: *** [all] エラー 2

@@ -1,0 +1,8 @@
+prefix=/home/mlab/catkin_ws/devel/.private/img_subscriber2
+
+Name: img_subscriber2
+Description: Description of img_subscriber2
+Version: 0.0.0
+Cflags: -I/home/mlab/catkin_ws/src/img_subscriber2/include
+Libs: -L/home/mlab/catkin_ws/devel/.private/img_subscriber2/lib -limg_subscriber2
+Requires: cv_bridge image_transport roscpp rospy sensor_msgs std_msgs
